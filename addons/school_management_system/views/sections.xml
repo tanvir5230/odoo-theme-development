@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="main_body" name="Main Body" >
+    <main>
+      <!-- 2nd section our mission-->
+      <div class="our-mission py-5 py-lg-0">
+        <div class="container d-flex">
+          <div class="col-7 d-none d-lg-flex justify-content-start py-4">
+            <img
+              src="/school_management_system/static/src/img/education.png"
+              alt=""
+              class="img-fluid"
+              width="550"
+              height="500"
+            />
+          </div>
+          <div
+            class="col-12 col-lg-5 d-flex justify-content-center align-items-center"
+          >
+            <div class="d-flex flex-column align-items-center d-lg-block">
+              <h1>Our Mission</h1>
+              <p class="py-3 text-xs-justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente, tempore assumenda facilis necessitatibus id saepe eos.
+                Error rem, facilis aperiam, eum autem fugit dolores dolor
+                inventore cupiditate ipsum nesciunt asperiores! Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Sapiente, tempore
+                assumenda facilis necessitatibus id saepe eos. Error rem, facilis
+                aperiam, eum autem fugit dolores dolor inventore cupiditate ipsum
+                nesciunt asperiores! Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Sapiente, tempore assumenda facilis
+                necessitatibus id saepe eos. Error rem, facilis aperiam, eum autem
+                fugit dolores dolor inventore cupiditate ipsum nesciunt
+                asperiores!
+              </p>
+              <button class="btn btn-warning btn-lg rounded-btn">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd section our mission-->
+      <!-- 3rd section -->
+      <div class="third-section">
+        <div
+          class="container d-flex flex-column flex-lg-row justify-content-space-between"
+        >
+          <div class="col-12 col-lg-4">
+            <div>
+              <h1>Admission</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                possimus dolorum? Cum eligendi quo, temporibus voluptatem numquam
+                totam voluptate ullam vel exercitationem consequuntur omnis
+                aspernatur aliquid nam dicta ipsum laudantium.
+              </p>
+              <a href="#" class="d-flex gap-2 btn">
+                <h5>Explore</h5>
+                <i
+                  ><img
+                    class="rounded-circle p-1"
+                    src="/school_management_system/static/src/img/next.png"
+                    width="20"
+                    height="20"
+                    alt=""
+                /></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 my-3 my-lg-0">
+            <div class="mx-0 mx-lg-2">
+              <h1>Key Dates</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                possimus dolorum? Cum eligendi quo, temporibus voluptatem numquam
+                totam voluptate ullam vel exercitationem consequuntur omnis
+                aspernatur aliquid nam dicta ipsum laudantium.
+              </p>
+              <a href="#" class="d-flex gap-2 btn">
+                <h5>Explore</h5>
+                <i
+                  ><img
+                    class="rounded-circle p-1"
+                    src="/school_management_system/static/src/img/next.png"
+                    width="20"
+                    height="20"
+                    alt=""
+                /></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div>
+              <h1>Parents</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                possimus dolorum? Cum eligendi quo, temporibus voluptatem numquam
+                totam voluptate ullam vel exercitationem consequuntur omnis
+                aspernatur aliquid nam dicta ipsum laudantium.
+              </p>
+              <a href="#" class="d-flex gap-2 btn">
+                <h5>Explore</h5>
+                <i
+                  ><img
+                    class="rounded-circle p-1"
+                    src="/school_management_system/static/src/img/next.png"
+                    width="20"
+                    height="20"
+                    alt=""
+                /></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd section ends-->
+
+      <!-- 4th section starts -->
+      <div class="fourth-section">
+        <div class="container d-flex">
+          <div class="col-12 col-lg-6 d-flex">
+            <div
+              class="d-flex flex-column justify-content-center align-items-lg-start align-items-center pt-5"
+            >
+              <h1>An Important Quote</h1>
+              <p class="py-3 text-center text-lg-left">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit facilis excepturi deleniti enim temporibus quod, tenetur adipisci similique ut animi aperiam sit natus beatae eaque odit ab, consectetur labore. 
+              </p>
+              <h4>Nela Wilson</h4>
+              <small>cumilla, Bangladesh</small>
+            </div>
+          </div>
+          <div class="col-6 d-none d-lg-flex justify-content-end py-4">
+            <img
+              src="/school_management_system/static/src/img/quote.jpg"
+              alt=""
+              class="rounded img-fluid"
+              width="700"
+              height="700"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- 4th section ends -->
+
+      <!-- 5th section starts -->
+      <div class="fifth-section container text-center text-white pt-5">
+        <div class="row">
+          <div
+            class="col-12 d-flex flex-column align-items-center justify-content-end"
+          >
+            <h1>Get in touch with us</h1>
+            <div class="py-1 mt-2 rounded bg-white px-1 row">
+              <input
+                type="email"
+                class="text-center py-2 px-2 rounded border-0 col-7 col-lg-8"
+                placeholder="Enter Your Email"
+              />
+              <button class="btn btn-danger col-5 col-lg-4">Sign UP</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 5th section ends -->
+    </main>
+  </template>
+
+</odoo>

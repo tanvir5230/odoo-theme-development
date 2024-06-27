@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  overflow: hidden;
+  position: relative;
+  background-color: #44417e;
+  height: 100vh;
+}
+
+.header svg {
+  overflow-x: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#wave {
+  animation: wave-animation 20s ease-in-out infinite;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: scaleX(1);
+    width: 2000px;
+  }
+  20% {
+    transform: scaleX(3);
+  }
+  40% {
+    transform: scalex(1.1);
+  }
+  60% {
+    transform: scaleX(3);
+  }
+  80% {
+    transform: scaleX(1.1);
+  }
+  100% {
+    width: 2000px;
+    transform: scaleX(1);
+  }
+}
+
+.header div {
+  z-index: 1;
+}
+
+.header nav a {
+  color: white !important;
+  font-weight: bold;
+}
+.rounded-btn {
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+.hero {
+  width: 100%;
+  height: 75vh;
+}
+.hero p {
+  width: 90%;
+}
+.hero .first-section-image {
+  opacity: 0.8;
+}
+
+.our-mission img,
+.header img {
+  border-radius: 50px;
+}
+
+.third-section {
+  padding: 100px 0;
+  background-color: #f3c381;
+}
+.third-section > div > div > div {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  padding: 40px 35px;
+  border: 3px solid #d96864 !important;
+}
+.third-section p {
+  font-weight: 500;
+}
+.third-section .btn {
+  font-weight: 500;
+  padding-left: 0;
+}
+.third-section img {
+  background-color: #dc7672;
+}
+
+.fifth-section {
+  transform: translateY(100px);
+  background: #001829;
+  background-size: 50% 50%;
+  background-repeat: repeat;
+  width: 100vw;
+  height: 200px;
+  border-radius: 40px;
+}
+
+.footer-clean {
+  padding-top: 100px;
+  background: #001829;
+  color: #fff;
+  z-index: 1;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+  .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.text-xs-left {
+  text-align: left !important;
+}
+
+.text-xs-right {
+  text-align: right !important;
+}
+
+.text-xs-center {
+  text-align: center !important;
+}
+
+.text-xs-justify {
+  text-align: justify !important;
+}
+
+@media (min-width: 768px) {
+  .text-sm-left {
+    text-align: left !important;
+  }
+
+  .text-sm-right {
+    text-align: right !important;
+  }
+
+  .text-sm-center {
+    text-align: center !important;
+  }
+
+  .text-sm-justify {
+    text-align: justify !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+
+  .text-md-right {
+    text-align: right !important;
+  }
+
+  .text-md-center {
+    text-align: center !important;
+  }
+
+  .text-md-justify {
+    text-align: justify !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+
+  .text-lg-right {
+    text-align: right !important;
+  }
+
+  .text-lg-center {
+    text-align: center !important;
+  }
+
+  .text-lg-justify {
+    text-align: justify !important;
+  }
+}

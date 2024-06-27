@@ -1,0 +1,8 @@
+FROM odoo:16.0
+
+ENV HOST=0.0.0.0 \ 
+  PORT=8069
+
+EXPOSE 8069
+
+CMD [ "odoo" ]

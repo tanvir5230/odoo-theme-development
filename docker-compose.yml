@@ -1,0 +1,39 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres:15
+    container_name: odoo-theme-db
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=myodoo
+      - POSTGRES_USER=odoo
+    volumes:
+      - odoo-theme-db-data:/var/lib/postgresql/data
+    networks:
+      - odoo-theme
+
+  web:
+    image: odoo:16.0
+    container_name: odoo-theme-web
+    ports:
+      - "8069:8069"
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=myodoo
+    volumes:
+      - odoo-theme-web-data:/var/lib/odoo
+      - ./config:/etc/odoo
+      - ./addons:/mnt/extra-addons
+    depends_on:
+      - db
+    networks:
+      - odoo-theme
+
+volumes:
+  odoo-theme-web-data:
+  odoo-theme-db-data:
+
+networks:
+  odoo-theme:
