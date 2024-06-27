@@ -11,6 +11,10 @@
         'views/layout.xml',
         'views/header.xml',
         'views/sections.xml',
+        'views/mission-section.xml',
+        'views/admission-section.xml',
+        'views/quote-section.xml',
+        'views/contact-us-section.xml',
         'views/footer.xml',
     ],
     'assets': {

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="mission_section" name="Mission Section">
+    <div class="our-mission py-5 py-lg-0">
+      <div class="container d-flex">
+        <div class="col-7 d-none d-lg-flex justify-content-start py-4">
+          <img
+            src="/school_management_system/static/src/img/education.png"
+            alt=""
+            class="img-fluid"
+            width="550"
+            height="500"
+          />
+        </div>
+        <div
+          class="col-12 col-lg-5 d-flex justify-content-center align-items-center"
+        >
+          <div class="d-flex flex-column align-items-center d-lg-block">
+            <h1>Our Mission</h1>
+            <p class="py-3 text-xs-justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Sapiente, tempore assumenda facilis necessitatibus id saepe eos.
+              Error rem, facilis aperiam, eum autem fugit dolores dolor
+              inventore cupiditate ipsum nesciunt asperiores! Lorem ipsum dolor
+              sit amet, consectetur adipisicing elit. Sapiente, tempore
+              assumenda facilis necessitatibus id saepe eos. Error rem, facilis
+              aperiam, eum autem fugit dolores dolor inventore cupiditate ipsum
+              nesciunt asperiores! Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Sapiente, tempore assumenda facilis
+              necessitatibus id saepe eos. Error rem, facilis aperiam, eum autem
+              fugit dolores dolor inventore cupiditate ipsum nesciunt
+              asperiores!
+            </p>
+            <button class="btn btn-warning btn-lg rounded-btn">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
+</odoo>

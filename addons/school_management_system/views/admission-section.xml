@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="admission_section" name="Admission Section">
+    <div class="third-section">
+      <div
+        class="container d-flex flex-column flex-lg-row justify-content-space-between"
+      >
+        <div class="col-12 col-lg-4">
+          <div>
+            <h1>Admission</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              possimus dolorum? Cum eligendi quo, temporibus voluptatem numquam
+              totam voluptate ullam vel exercitationem consequuntur omnis
+              aspernatur aliquid nam dicta ipsum laudantium.
+            </p>
+            <a href="#" class="d-flex gap-2 btn">
+              <h5>Explore</h5>
+              <i
+                ><img
+                  class="rounded-circle p-1"
+                  src="/school_management_system/static/src/img/next.png"
+                  width="20"
+                  height="20"
+                  alt=""
+              /></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 my-3 my-lg-0">
+          <div class="mx-0 mx-lg-2">
+            <h1>Key Dates</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              possimus dolorum? Cum eligendi quo, temporibus voluptatem numquam
+              totam voluptate ullam vel exercitationem consequuntur omnis
+              aspernatur aliquid nam dicta ipsum laudantium.
+            </p>
+            <a href="#" class="d-flex gap-2 btn">
+              <h5>Explore</h5>
+              <i
+                ><img
+                  class="rounded-circle p-1"
+                  src="/school_management_system/static/src/img/next.png"
+                  width="20"
+                  height="20"
+                  alt=""
+              /></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div>
+            <h1>Parents</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              possimus dolorum? Cum eligendi quo, temporibus voluptatem numquam
+              totam voluptate ullam vel exercitationem consequuntur omnis
+              aspernatur aliquid nam dicta ipsum laudantium.
+            </p>
+            <a href="#" class="d-flex gap-2 btn">
+              <h5>Explore</h5>
+              <i
+                ><img
+                  class="rounded-circle p-1"
+                  src="/school_management_system/static/src/img/next.png"
+                  width="20"
+                  height="20"
+                  alt=""
+              /></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
+</odoo>

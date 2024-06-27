@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="quote_section" name="Quote Section">
+    <div class="fourth-section">
+      <div class="container d-flex">
+        <div class="col-12 col-lg-6 d-flex">
+          <div
+            class="d-flex flex-column justify-content-center align-items-lg-start align-items-center pt-5"
+          >
+            <h1>An Important Quote</h1>
+            <p class="py-3 text-center text-lg-left">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit facilis excepturi deleniti enim temporibus quod, tenetur adipisci similique ut animi aperiam sit natus beatae eaque odit ab, consectetur labore. 
+            </p>
+            <h4>Nela Wilson</h4>
+            <small>cumilla, Bangladesh</small>
+          </div>
+        </div>
+        <div class="col-6 d-none d-lg-flex justify-content-end py-4">
+          <img
+            src="/school_management_system/static/src/img/quote.jpg"
+            alt=""
+            class="rounded img-fluid"
+            width="700"
+            height="700"
+          />
+        </div>
+      </div>
+    </div>
+  </template>
+
+</odoo>
