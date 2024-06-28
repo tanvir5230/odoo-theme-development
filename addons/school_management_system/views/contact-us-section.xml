@@ -2,7 +2,7 @@
 <odoo>
 
   <template id="contact_us_section" name="Contact Us">
-    <div class="fifth-section container text-center text-white pt-5">
+    <section class="fifth-section container text-center text-white pt-5">
       <div class="row">
         <div
           class="col-12 d-flex flex-column align-items-center justify-content-end"
@@ -18,7 +18,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </template>
 
 </odoo>

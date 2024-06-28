@@ -2,7 +2,7 @@
 <odoo>
 
   <template id="quote_section" name="Quote Section">
-    <div class="fourth-section">
+    <section class="fourth-section">
       <div class="container d-flex">
         <div class="col-12 col-lg-6 d-flex">
           <div
@@ -26,7 +26,7 @@
           />
         </div>
       </div>
-    </div>
+    </section>
   </template>
 
 </odoo>

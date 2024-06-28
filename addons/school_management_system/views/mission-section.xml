@@ -2,7 +2,7 @@
 <odoo>
 
   <template id="mission_section" name="Mission Section">
-    <div class="our-mission py-5 py-lg-0">
+    <section class="our-mission py-5 py-lg-0">
       <div class="container d-flex">
         <div class="col-7 d-none d-lg-flex justify-content-start py-4">
           <img
@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </template>
 
 </odoo>

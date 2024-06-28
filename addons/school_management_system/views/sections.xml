@@ -6,9 +6,6 @@
       <!-- 2nd section: our mission-->
       <t t-call="school_management_system.mission_section"/>
 
-      <!-- 3rd section: Admission-->
-      <t t-call="school_management_system.admission_section"/>
-
       <!-- 4th section: Quote -->
       <t t-call="school_management_system.quote_section"/>
 

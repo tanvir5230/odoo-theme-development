@@ -6,8 +6,8 @@ services:
     container_name: odoo-theme-db
     environment:
       - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=myodoo
-      - POSTGRES_USER=odoo
+      - POSTGRES_USER=odoo_theme
+      - POSTGRES_PASSWORD=odoo_theme
     volumes:
       - odoo-theme-db-data:/var/lib/postgresql/data
     networks:
@@ -20,8 +20,8 @@ services:
       - "8069:8069"
     environment:
       - HOST=db
-      - USER=odoo
-      - PASSWORD=myodoo
+      - USER=odoo_theme
+      - PASSWORD=odoo_theme
     volumes:
       - odoo-theme-web-data:/var/lib/odoo
       - ./config:/etc/odoo

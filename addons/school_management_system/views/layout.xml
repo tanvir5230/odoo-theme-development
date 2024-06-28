@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="layout" inherit_id="website.layout">
-        <xpath expr="//head" position="inside">
-            <link rel="stylesheet" type="text/css" href="/school_management_system/static/src/css/styles.css"/>
-            <script type="text/javascript" src="/school_management_system/static/src/js/scripts.js"></script>
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/css" href="/school_management_system/static/src/css/my-styles.css"/>
         </xpath>
         <xpath expr="//header" position="replace">
             <t t-call="school_management_system.custom_header"/>
         </xpath>
-        <xpath expr="//main" position="replace">
+        <xpath expr="//main" position="inside">
             <t t-call="school_management_system.main_body"/>
         </xpath>
         <xpath expr="//footer" position="replace">

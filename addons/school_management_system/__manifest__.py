@@ -5,22 +5,22 @@
     """,
     'version': '1.0',
     'category': 'Theme/Creative',
-    'depends': ['website'],
+    'depends': ['base', 'website'],
     'author': "Tanvir Ibn Touhid",
     'data': [
         'views/layout.xml',
         'views/header.xml',
         'views/sections.xml',
         'views/mission-section.xml',
-        'views/admission-section.xml',
         'views/quote-section.xml',
         'views/contact-us-section.xml',
         'views/footer.xml',
+        'views/snippets/custom_snippets.xml',
+        'views/snippets/three_card_snippet.xml'
     ],
     'assets': {
         'web.assets_frontend': [
-            'school_management_system/static/src/css/styles.css',
-            'school_management_system/static/src/js/scripts.js',
+            'school_management_system/static/src/css/my-styles.css',
         ],
     },
     'images': [
