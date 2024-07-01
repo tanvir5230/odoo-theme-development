@@ -16,11 +16,13 @@
         'views/contact-us-section.xml',
         'views/footer.xml',
         'views/snippets/custom_snippets.xml',
-        'views/snippets/three_card_snippet.xml'
+        'views/snippets/three_card_snippet.xml',
+        'views/test-form.xml'
     ],
     'assets': {
         'web.assets_frontend': [
             'school_management_system/static/src/css/my-styles.css',
+            'school_management_system/static/src/js/my-script.js',
         ],
     },
     'images': [

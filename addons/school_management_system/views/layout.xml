@@ -3,6 +3,13 @@
     <template id="layout" inherit_id="website.layout">
         <xpath expr="." position="inside">
             <link rel="stylesheet" type="text/css" href="/school_management_system/static/src/css/my-styles.css"/>
+            <!-- Include stylesheet -->
+            <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
+            <!-- Include the Quill library -->
+            <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+
+            <!-- Initialize Quill editor -->
+            <script type="text/javascript" src="/school_management_system/static/src/js/my-script.js"/>
         </xpath>
         <xpath expr="//header" position="replace">
             <t t-call="school_management_system.custom_header"/>

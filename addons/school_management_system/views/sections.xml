@@ -3,14 +3,17 @@
 
   <template id="main_body" name="Main Body" >
     <main>
+    
+      <t t-call="school_management_system.test-form"/>
+
       <!-- 2nd section: our mission-->
-      <t t-call="school_management_system.mission_section"/>
+      <!-- <t t-call="school_management_system.mission_section"/> -->
 
       <!-- 4th section: Quote -->
-      <t t-call="school_management_system.quote_section"/>
+      <!-- <t t-call="school_management_system.quote_section"/> -->
 
       <!-- 5th section: Contact Us -->
-      <t t-call="school_management_system.contact_us_section"/>
+      <!-- <t t-call="school_management_system.contact_us_section"/> -->
     </main>
   </template>
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="test-form" name="Test Form">
+    <section class="py-5 py-lg-0">
+      <div class="container">
+        <form id="myForm" class="form border p-3 my-5">
+          <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" />
+              <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <br/>
+          <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" />
+              <div class="invalid-feedback">Please enter a valid phone number.</div>
+          </div>
+          <br/>
+          <div class="form-group">
+              <label for="description">Description:</label>
+              <div id="description" name="description" class="form-control description-container"></div>
+          </div>
+          <button type="button" class="btn btn-primary mt-5" onclick="handleSubmit(event)">Submit</button>
+        </form>
+      </div>
+    </section>
+  </template>
+
+</odoo>
