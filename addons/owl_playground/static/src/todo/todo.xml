@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+  <t t-name="owl_playground.todo" owl="1">
+    <div>
+      <input type="text" t-model="state.taskInput" placeholder="Enter task"/>
+      <button class="btn btn-warning" t-on-click="addTask">Add a task</button>
+    </div>
+    <ul>
+      <li t-foreach="state.todos" t-as="task" t-key="task.id">
+        <input type="checkbox" t-model="task.isCompleted" />
+        <span t-att-class="{ 'text-decoration-line-through': task.isCompleted, 'text-muted': !task.isCompleted }">
+          <t t-esc="task.name"/>
+        </span>
+        <button class="btn btn-danger" t-on-click="() => removeTask(task.id)">Remove</button>
+      </li>
+    </ul>
+  </t>
+</templates>
