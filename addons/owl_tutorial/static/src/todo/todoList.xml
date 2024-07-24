@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+
+  <t t-name="owl_tutorial.TodoList" owl="1">
+
+    <div t-foreach="props.todo" t-as="task" t-key="task.id">
+      <div class="d-flex align-items-center gap-3" t-att-class="{'text-decoration-line-through text-muted': task.isCompleted}">
+        <input type="checkbox" t-att-checked="task.isCompleted" t-on-click="props.toggleState"/>
+        <span><t t-esc="task.id + '. ' + task.name" /></span>
+      </div>
+    </div>
+
+  </t>
+
+</templates>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+
+  <t t-name="owl_tutorial.Todo" owl="1">
+
+    <div>
+      <input class="form-control mb-3" placeholder="Enter a New Task..." t-on-keyup="props.addTodo" t-ref="input"/>
+      <TodoList todo="props.todo" toggleState="props.toggleState"/>
+    </div>
+
+  </t>  
+
+</templates>

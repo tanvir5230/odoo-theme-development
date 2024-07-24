@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <data>
+  
+    <template id="owl_tutorial.tutorial" name="Owl Tutorial">
+      <html>
+        <head>
+          <t t-call-assets="owl_tutorial.assets_tutorial"/>
+        </head>
+        <body>
+        </body>
+      </html>
+    </template>
+  
+  </data>
+  
+
+</odoo>

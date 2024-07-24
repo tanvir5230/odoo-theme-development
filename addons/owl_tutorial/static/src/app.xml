@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve" >
+
+  <t t-name="owl_tutorial.App" owl="1">
+
+    <div class="p-3">
+      <HelloWorld />
+      <hr />
+      <Counter />
+      <hr />
+      <Todo todo="state.todo" addTodo="addTodo"/>
+    <div>
+
+  </t>
+
+</templates>
