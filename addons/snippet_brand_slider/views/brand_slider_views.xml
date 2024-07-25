@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <!-- Form View Definition -->
     <record id="view_brand_image_form" model="ir.ui.view">
-        <field name="name">brand.image.form</field>
-        <field name="model">brand.image</field>
+        <field name="name">snippet_brand_slider.brand.form</field>
+        <field name="model">snippet_brand_slider.brand</field>
         <field name="arch" type="xml">
             <form string="Brand Image">
                 <sheet>
                     <group>
                         <field name="name"/>
+                        <field name="link"/>
                         <field name="image" widget="image"/>
                     </group>
                 </sheet>
@@ -15,25 +17,28 @@
         </field>
     </record>
 
+    <!-- Tree View Definition -->
     <record id="view_brand_image_tree" model="ir.ui.view">
-        <field name="name">brand.image.tree</field>
-        <field name="model">brand.image</field>
+        <field name="name">snippet_brand_slider.brand.tree</field>
+        <field name="model">snippet_brand_slider.brand</field>
         <field name="arch" type="xml">
-            <tree string="Brand Image">
+            <tree string="Brand Images">
                 <field name="name"/>
+                <field name="link"/>
                 <field name="image" widget="image" readonly="1"/>
             </tree>
         </field>
     </record>
 
-    <record id="action_brand_image" model="ir.actions.act_window">
+    <!-- Window Action Definition -->
+    <record id="action_snippet_brand_slider_brand" model="ir.actions.act_window">
         <field name="name">Brand Images</field>
-        <field name="res_model">brand.image</field>
+        <field name="res_model">snippet_brand_slider.brand</field>
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="menu_brand_image_root" name="Brand Images Root" sequence="0">
-      <menuitem id="menu_brand_image" name="Brand Images" action="action_brand_image"/>
+    <!-- Menu Items Definition -->
+    <menuitem id="menu_snippet_brand_slider_brand_root" name="Brands" sequence="0">
+        <menuitem id="menu_snippet_brand_slider_brand" name="Brands" action="action_snippet_brand_slider_brand"/>
     </menuitem>
-
 </odoo>

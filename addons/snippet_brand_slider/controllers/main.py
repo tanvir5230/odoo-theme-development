@@ -7,7 +7,7 @@ class BrandSliderImageAPI(http.Controller):
 
     @http.route('/api/brands/get', type='json', auth='public', methods=['POST'], website=True)
     def get(self):
-        brands = request.env['brand.image'].sudo().search([])
+        brands = request.env['snippet_brand_slider.brand'].sudo().search([])
         brand_data = []
 
         for brand in brands:

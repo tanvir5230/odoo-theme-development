@@ -1,3 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_brand_image_user,access_brand_image_user,model_brand_image,base.group_user,1,0,0,0
-access_brand_image_manager,access_brand_image_manager,model_brand_image,base.group_system,1,1,1,1
+access_brand_image_user,access_brand_image_user,model_snippet_brand_slider_brand,base.group_user,1,0,0,0
+access_brand_image_manager,access_brand_image_manager,model_snippet_brand_slider_brand,base.group_system,1,1,1,1
