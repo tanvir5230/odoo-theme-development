@@ -7,21 +7,9 @@
       <t t-call-assets="web.assets_frontend"/>
     </t>
     <section class="s_brands">
+      <h2 class="heading">Our In-House Brands</h2>
       <div class="brand-slider">
         <div class="brand-slider-inner">
-          <!-- <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" /> -->
-          <!-- Repeatation -->
-          <!-- <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" />
-          <img class="brand" src="/snippet_brand_slider/static/src/img/partner.png" width="100" height="100" /> -->
         </div>
       </div>
     </section>

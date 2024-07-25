@@ -16,23 +16,22 @@ publicWidget.registry.brandItems = publicWidget.Widget.extend({
       params: {}
     })
     if (data && data?.status === "success") {
-      this._renderBrands(data)
+      this._renderBrands(data.images)
     }
   },
 
-  _renderBrands(data) {
+  _renderBrands(images) {
     const container = this.$('.brand-slider-inner');
-    if (data.images.length === 0) {
-      container.text("Please upload brands!!!")
-    } else {
-      data.images.forEach(brand => {
-        if (brand.image) {
-          const imgSrc = 'data:image/png;base64,' + brand.image;
-          const imgElement = `<img src="${imgSrc}" alt="${brand.name}" class="brand" style="width:100px;height:100px;">`;
-          container.append(imgElement);
-        }
+    container.empty(); // Clear existing content for efficiency
+
+    const imgElements = images
+      .filter((brand) => brand.image) // Filter for brands with images
+      .map((brand) => {
+        const imgSrc = 'data:image/png;base64,' + brand.image;
+        return `<img src="${imgSrc}" alt="${brand.name}" class="brand" width="100px" height="100px">`;
       });
-    }
+
+    container.append(imgElements.join(''), imgElements.join(''));
   },
 });
 

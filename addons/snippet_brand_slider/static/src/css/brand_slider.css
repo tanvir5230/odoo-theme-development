@@ -1,16 +1,27 @@
 :root {
   --duration: 20s;
 }
-.brand-slider {
+
+.s_brands {
+  padding: 50px 86px;
+}
+
+.s_brands .heading {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.s_brands .brand-slider {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
   width: 100%;
-  padding: 10px 0;
 }
 
-.brand-slider-inner {
-  width: 100%;
+.s_brands .brand-slider-inner {
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,9 +30,9 @@
   animation: slide var(--duration) linear infinite;
 }
 
-.brand {
-  width: 200px;
-  height: 200px;
+.s_brands .brand {
+  width: 201px;
+  height: 150px;
 }
 
 @keyframes slide {
