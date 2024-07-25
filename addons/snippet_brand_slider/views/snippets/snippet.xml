@@ -6,7 +6,7 @@
             <div id="snippet_structure" class="o_panel">
                 <div class="o_panel_header">Custom Dynamic Snippets</div>
                 <div class="o_panel_body">
-                    <t t-snippet="snippet_partners.snippet_partners" string="Snippet Partners" t-thumbnail="/snippet_partners/static/src/img/partner.png">
+                    <t t-snippet="snippet_brand_slider.snippet_brand_slider" string="Snippet Partners" t-thumbnail="/snippet_brand_slider/static/src/img/partner.png">
                         <keywords>Partners</keywords>
                     </t>
                 </div>
