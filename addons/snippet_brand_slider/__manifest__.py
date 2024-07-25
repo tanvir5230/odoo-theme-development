@@ -19,7 +19,8 @@
     'assets': {
         'web.assets_frontend': [
             'snippet_brand_slider/static/src/css/brand_slider.css',
-            'snippet_brand_slider/static/src/js/brand_slider_snippet.js'
+            'snippet_brand_slider/static/src/js/brand_slider_snippet.js',
+            'snippet_brand_slider/static/src/js/brand_slider_snippet_options.js'
         ],
     },
     'images': [

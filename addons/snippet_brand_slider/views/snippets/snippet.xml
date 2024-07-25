@@ -14,4 +14,15 @@
         </xpath>
     </template>
 
+    <template id="snippet_brand_slider_options" inherit_id="website.snippet_options">
+        <xpath expr="//t[@t-call='website.snippet_options_background_options']" position="before">
+            <div data-js="BrandSliderSnippetScrollOption" data-selector=".s_brands">
+                <we-button-group string="Scroll Effect">
+                    <we-button data-select-class="s_brands_scroll_yes" title="Yes">Yes</we-button>
+                    <we-button data-select-class="s_brands_scroll_no" title="No">No</we-button>
+                </we-button-group>
+            </div>
+        </xpath>
+    </template>
+
 </odoo>

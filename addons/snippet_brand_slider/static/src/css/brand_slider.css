@@ -27,7 +27,18 @@
   align-items: center;
   gap: 60px;
   white-space: nowrap;
+}
+
+.s_brands.s_brands_scroll_yes .brand-slider-inner {
   animation: slide var(--duration) linear infinite;
+}
+
+.s_brands.s_brands_scroll_no .brand-slider-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  animation: none; 
 }
 
 .s_brands .brand {

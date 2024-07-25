@@ -5,7 +5,7 @@ import publicWidget from 'web.public.widget';
 publicWidget.registry.brandItems = publicWidget.Widget.extend({
   selector: '.s_brands',
 
-  start() {
+  start: function () {
     console.log('brand snippet ready');
     this._fetchBrandImages();
   },
@@ -30,8 +30,12 @@ publicWidget.registry.brandItems = publicWidget.Widget.extend({
         const imgSrc = 'data:image/png;base64,' + brand.image;
         return `<img src="${imgSrc}" alt="${brand.name}" class="brand" width="100px" height="100px">`;
       });
-
-    container.append(imgElements.join(''), imgElements.join(''));
+    const isScrollEffectActive = $('.s_brands').hasClass('s_brands_scroll_yes');
+    if (isScrollEffectActive) {
+      container.append(imgElements.join(''), imgElements.join(''));
+    } else {
+      container.append(imgElements.join(''));
+    }
   },
 });
 

@@ -7,7 +7,7 @@
       <t t-call-assets="web.assets_frontend"/>
     </t>
     <section class="s_brands">
-      <h2 class="heading">Our In-House Brands</h2>
+      <h2 class="heading">Our Partners</h2>
       <div class="brand-slider">
         <div class="brand-slider-inner">
         </div>
