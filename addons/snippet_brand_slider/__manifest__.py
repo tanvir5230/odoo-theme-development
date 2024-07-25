@@ -1,7 +1,10 @@
 {
-    'name': "Snippet Partners",
+    'name': "Brand Slider",
+    'summary': 'A module to display scrolling brand logos with an option to enable or disable the scrolling effect.',
     'description': """
-      Snippet Partners
+    The Brand Slider module allows you to showcase brand logos in a slider format. 
+    It features an optional scrolling effect that can be enabled or disabled as per the requirement.
+    Perfect for highlighting brand partners or sponsors on your website.
     """,
     'version': '1.0',
     'category': 'Snippet',
