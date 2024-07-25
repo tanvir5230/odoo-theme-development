@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template id="partner_snippet" inherit_id="website.snippets" name="Partner Snippet">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_structure" class="o_panel">
+                <div class="o_panel_header">Custom Dynamic Snippets</div>
+                <div class="o_panel_body">
+                    <t t-snippet="snippet_partners.snippet_partners" string="Snippet Partners" t-thumbnail="/snippet_partners/static/src/img/partner.png">
+                        <keywords>Partners</keywords>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>
