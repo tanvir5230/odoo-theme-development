@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
 
-    <template id="partner_snippet" inherit_id="website.snippets" name="Partner Snippet">
+    <template id="brand_slider_snippet" inherit_id="website.snippets" name="Brand Slider">
         <xpath expr="//div[@id='snippet_structure']" position="before">
             <div id="snippet_structure" class="o_panel">
                 <div class="o_panel_header">Custom Dynamic Snippets</div>
                 <div class="o_panel_body">
                     <t t-snippet="snippet_brand_slider.snippet_brand_slider" string="Snippet Partners" t-thumbnail="/snippet_brand_slider/static/src/img/partner.png">
-                        <keywords>Partners</keywords>
+                        <keywords>Brand, Slider</keywords>
                     </t>
                 </div>
             </div>

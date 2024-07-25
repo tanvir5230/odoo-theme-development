@@ -10,13 +10,13 @@
     'data': [
         'security/ir.model.access.csv',
         'views/snippets/snippet.xml',
-        'views/snippets/partners.xml',
-        'views/brand.xml'
+        'views/snippets/brand_slider.xml',
+        'views/brand_slider_views.xml'
     ],
     'assets': {
         'web.assets_frontend': [
-            'snippet_brand_slider/static/src/css/partners.css',
-            'snippet_brand_slider/static/src/js/brand_snippet.js'
+            'snippet_brand_slider/static/src/css/brand_slider.css',
+            'snippet_brand_slider/static/src/js/brand_slider_snippet.js'
         ],
     },
     'images': [

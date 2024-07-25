@@ -3,7 +3,7 @@ from odoo.http import request, Response
 import json
 
 
-class BrandImageAPI(http.Controller):
+class BrandSliderImageAPI(http.Controller):
 
     @http.route('/api/brands/get', type='json', auth='public', methods=['POST'], website=True)
     def get(self):

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-  <template id="snippet_brand_slider" name="Snippet Partners">
+  <template id="snippet_brand_slider" name="Snippet Brand Slider">
 
     <t t-set="head">
       <t t-call-assets="web.assets_frontend"/>
